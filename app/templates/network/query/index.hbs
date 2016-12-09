@@ -161,7 +161,7 @@
             </div>
         {{/unless}}
         {{#if optionsModalIsOpen}}
-          {{query-options-modal sourceController=this action='submitQuery' query=query}}
+          {{query-options-modal sourceController=this action='submitQuery' toggle='toggleOptionsModal' query=query}}
         {{/if}}
     </form>
 </div>

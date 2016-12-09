@@ -21,8 +21,8 @@ export default Ember.Component.extend({
   },
   actions:{
     close(){
-      console.log('close box-detaisl');
-      console.log('networkselected = ', this.get('network.selectedNodes'));
+      //console.log('close box-detaisl');
+      //console.log('networkselected = ', this.get('network.selectedNodes'));
       this.set('network.selectedNodes', []);
     }
   }

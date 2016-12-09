@@ -20,7 +20,7 @@ export default Ember.Component.extend({
   actions: {
 
     toggleOptionsModal() {
-      this.get('targetObject').send('toggleOptionsModal');
+      this.sendAction('toggle');
     },
 
     submitQuery() {
